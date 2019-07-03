@@ -1,0 +1,30 @@
+{
+  "name": "github",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Community health files",
+  "license": "CC-BY-4.0",
+  "keywords": [],
+  "repository": "mdx-js/.github",
+  "bugs": "https://github.com/mdx-js/.github",
+  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    "John Otander <johnotander@gmail.com> (http://johnotander.com)",
+  ],
+  "devDependencies": {
+    "remark-cli": "^6.0.0",
+    "remark-frontmatter": "^1.0.0",
+    "remark-preset-wooorm": "^5.0.0"
+  },
+  "scripts": {
+    "format": "remark . -qfo",
+    "test": "npm run format"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "frontmatter",
+      "preset-wooorm"
+    ]
+  }
+}
