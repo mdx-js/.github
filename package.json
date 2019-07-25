@@ -10,7 +10,7 @@
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-    "John Otander <johnotander@gmail.com> (http://johnotander.com)",
+    "John Otander <johnotander@gmail.com> (http://johnotander.com)"
   ],
   "devDependencies": {
     "remark-cli": "^6.0.0",
