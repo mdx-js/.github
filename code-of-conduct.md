@@ -57,7 +57,7 @@ maintainers.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project team at [richard@maintainer.io][richard],
-which will go only to Richard Littauer, or to [liv@fastmail.com][liv], which
+which will go only to Richard Littauer, or to [mokou@posteo.de][liv], which
 will go only to Olivia Hugger.
 You may also cc both.
 All complaints will be reviewed and investigated and will result in a response
@@ -92,7 +92,7 @@ For answers to common questions about this code of conduct, see the [FAQ][].
 
 [richard]: mailto:richard@maintainer.io
 
-[liv]: mailto:liv@fastmail.com
+[liv]: mailto:mokou@posteo.de
 
 [homepage]: https://www.contributor-covenant.org
 
