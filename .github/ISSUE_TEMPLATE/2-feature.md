@@ -1,6 +1,7 @@
 ---
 name: 🚀 Feature request
 about: Suggest an idea for this project
+labels: 🔍 status/open, 🦋 type/enhancement
 ---
 
 <!--
