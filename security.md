@@ -25,8 +25,8 @@ When in doubt, please do send us a report.
 
 ## How to submit a report
 
-To submit a security issue, please contact the members of the unified
-[**core team**][core].
+Security issues can be reported by sending an email to `security@unifiedjs.com`,
+which will go to all [**unified collective core team**][core] members.
 The team will acknowledge your email within 48 hours.
 You will receive a more detailed response within 96 hours.
 
