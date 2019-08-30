@@ -96,4 +96,4 @@ For answers to common questions about this code of conduct, see
 
 [homepage]: https://www.contributor-covenant.org
 
-[moderation]: moderation.md
+[moderation]: https://github.com/unifiedjs/collective/blob/master/moderation.md
