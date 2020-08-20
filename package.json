@@ -13,8 +13,8 @@
     "John Otander <johnotander@gmail.com> (http://johnotander.com)"
   ],
   "devDependencies": {
-    "remark-cli": "7.0.1",
-    "remark-frontmatter": "1.3.2",
+    "remark-cli": "8.0.1",
+    "remark-frontmatter": "2.0.0",
     "remark-preset-wooorm": "6.0.1"
   },
   "scripts": {
