@@ -26,7 +26,7 @@ help you.
 We’re excited that you’re interested in contributing!
 Take a moment to [read the guidelines on the MDX website][contributing].
 
-## Code of Conduct
+## Code of conduct
 
 This project has a [Code of Conduct][coc].
 By interacting with this repository, organization, or community you agree to

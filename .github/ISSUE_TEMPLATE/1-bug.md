@@ -5,7 +5,7 @@ labels: 🔍 status/open, 🐛 type/bug
 ---
 
 <!--
-Ouch, sorry you’ve run into a bug.  Thank for taking the time to report it!
+Ouch, sorry you ran into a bug.  Thank for taking the time to report it!
 
 Please fill in as much of the template below as you’re able.
 
@@ -18,7 +18,7 @@ https://mdxjs.com/contributing
 
 Describe your issue here.
 
-This is *not* a place to ask questions.  For that, go to [Spectrum](https://spectrum.chat/mdx)
+This is *not* a place to ask questions.  For that, go to [Discussions](https://github.com/mdx-js/mdx/discussions)
 
 ### Your environment
 

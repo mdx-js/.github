@@ -33,9 +33,9 @@ You will receive a more detailed response within 96 hours.
 We will create a maintainer security advisory on GitHub to discuss internally,
 and when needed, invite you to the advisory.
 
-## Safe harbour
+## Safe harbor
 
-**MDX** supports safe harbour for security researchers who:
+**MDX** supports safe harbor for security researchers who:
 
 *   Make a good faith effort to avoid privacy violations, destruction of data,
     and interruption or degradation of our services
