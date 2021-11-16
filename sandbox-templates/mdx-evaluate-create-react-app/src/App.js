@@ -14,18 +14,17 @@ function () {}
 `;
 
 function useMDX(content) {
-  const [Component, setComponent] = useState(null);
+  const [exports, setExports] = useState({ default: runtime.Fragment });
 
   useEffect(() => {
-    evaluate(mdxContent, { ...runtime }).then((exports) =>
-      setComponent(exports.default)
-    );
+    evaluate(mdxContent, { ...runtime }).then((exports) => setExports(exports));
   }, [content]);
 
-  return Component;
+  return exports;
 }
 
 export default function App() {
-  const Content = useMDX(mdxContent);
+  const exports = useMDX(mdxContent);
+  const Content = exports.default;
   return <Content />;
 }
