@@ -85,10 +85,8 @@ body:
         - Node v16
         - Node v14
         - Node v12
-        - Deno v1
-        - Electron v15
-        - Electron v14
-        - Electron v15
+        - Deno
+        - Electron
         - Other (please specify in steps to reproduce)
     validations:
       required: false
