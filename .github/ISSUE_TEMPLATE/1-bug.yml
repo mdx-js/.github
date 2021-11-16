@@ -128,7 +128,7 @@ body:
       description: What, if any, tools are used to build or bundle the project?
       multiple: true
       options:
-        - Webpack
+        - webpack
         - Rollup
         - esbuild
         - Parcel
