@@ -100,8 +100,8 @@ body:
       options:
         - npm v6
         - npm v8
-        - yarn v1
         - yarn v2
+        - yarn v1
         - pnpm
         - Other (please specify in steps to reproduce)
     validations:
