@@ -135,6 +135,7 @@ body:
         - Create React App
         - Gatsby
         - Next.js
+        - Remix
         - Docusaurus
         - Snowpack
         - Vite
