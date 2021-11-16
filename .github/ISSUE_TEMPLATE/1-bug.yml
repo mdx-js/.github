@@ -98,8 +98,8 @@ body:
       description: What package manager are you using?
       multiple: true
       options:
-        - npm v6
         - npm v8
+        - npm v6
         - yarn v2
         - yarn v1
         - pnpm
