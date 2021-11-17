@@ -1,15 +1,23 @@
 module.exports = {
-  pageExtensions: ["mdx", "md", "jsx", "js", "tsx", "ts"],
-  webpack: (config) => {
+  // Support MDX files as pages:
+  pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
+  // Support loading `.md`, `.mdx`:
+  webpack(config, options) {
     config.module.rules.push({
-      test: /\.mdx$/,
+      test: /\.mdx?$/,
       use: [
+        // The default `babel-loader` used by Next:
+        options.defaultLoaders.babel,
         {
-          loader: "@mdx-js/loader"
-        }
-      ]
+          loader: "@mdx-js/loader",
+          /** @type {import('@mdx-js/loader').Options} */
+          options: {
+            /* jsxImportSource: …, otherOptions… */
+          },
+        },
+      ],
     });
 
     return config;
-  }
+  },
 };

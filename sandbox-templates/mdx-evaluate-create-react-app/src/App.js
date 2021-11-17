@@ -3,14 +3,12 @@ import * as runtime from "react/jsx-runtime";
 import { evaluate } from "@mdx-js/mdx";
 
 const mdxContent = `
-# heading
+export const planet = 'World'
+
+# Hello, {planet}!
 
 * list
 * item
-
-\`\`\`js
-function () {}
-\`\`\`
 `;
 
 function useMDX(content) {
