@@ -10,7 +10,7 @@ import { evaluate } from "@mdx-js/mdx";
 
 http
   .createServer(async function (_, res) {
-    const content = "Hi! <span style={{color: 'red'}}>there</span>";
+    const content = "Hi <span style={{color: 'tomato'}}>there</span>!";
     const { default: Content } = await evaluate(content, runtime);
     ReactDom.renderToNodeStream(Content()).pipe(res);
   })
