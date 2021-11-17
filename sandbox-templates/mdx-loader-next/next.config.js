@@ -1,3 +1,6 @@
+// ⚠️ Important! Please make sure the dependencies are up to date.
+// You can refresh them in the Dependencies section (left-bottom on CodeSandbox)
+
 module.exports = {
   // Support MDX files as pages:
   pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
