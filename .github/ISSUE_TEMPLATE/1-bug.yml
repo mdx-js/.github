@@ -41,8 +41,9 @@ body:
         Link to repository or sandbox with runnable example of the issue.
 
         Some CodeSandbox starters:
-        - [MDX Evaluate with Create React App](https://codesandbox.io/s/github/mdx-js/.github/sandbox-templates/mdx-evaluate-create-react-app)
         - [MDX Loader with Next.js](https://codesandbox.io/s/github/mdx-js/.github/sandbox-templates/mdx-loader-next)
+        - [MDX Evaluate with Node.js](https://codesandbox.io/s/github/mdx-js/.github/sandbox-templates/mdx-evaulate-node)
+        - [MDX Evaluate with Create React App](https://codesandbox.io/s/github/mdx-js/.github/sandbox-templates/mdx-evaluate-create-react-app)
 
         Alternatively, use the next section *Steps to reproduce*.
     validations:
