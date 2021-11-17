@@ -1,8 +1,5 @@
 # Security policy
 
-> **Note**: this policy is new and untested.
-> We’ll update and polish it as we’re receiving security issues.
-
 ## Brand promise
 
 Keeping users safe and secure is a top priority for us at

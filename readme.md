@@ -1,34 +1,31 @@
 # `.github`
 
 Community health files for **MDX**.
-This repo hosts the [Code of Conduct][coc], a [pull request template][pr], and
-[issue templates][issue].
-[Support][] and [Contributing][] docs live on the [website][], but exist here
-as proxies so they can be found through GitHub’s interface.
+This repo hosts the [code of conduct][coc], a guide on how to get [support][],
+how to [contribute][], a [pull request template][pr], and [issue
+templates][issue].
 
 ## unified
 
 **MDX** is a [unified collective][unified] project.
-Read how it’s governed in [`unifiedjs/collective`][collective].
+See [`unifiedjs/collective`][collective] for how it’s governed.
 
 ## Awesome MDX
 
-For a curated list of awesome MDX resources, see [Awesome MDX][awesome].
+See [Awesome MDX][awesome] for a curated list of awesome MDX resources.
 
 ## Support
 
-We’re glad you’re using these projects and we’d love to help.
-[Read the guidelines on the MDX website][support] to find out how to help us
-help you.
+See [`mdxjs.com/community/support/`][support] to find out how to help us help
+you.
 
 ## Contributing
 
-We’re excited that you’re interested in contributing!
-Take a moment to [read the guidelines on the MDX website][contributing].
+See [`mdxjs.com/community/contribute/`][contribute] for how to contribute.
 
 ## Code of conduct
 
-This project has a [Code of Conduct][coc].
+This project has a [code of conduct][coc].
 By interacting with this repository, organization, or community you agree to
 abide by its terms.
 
@@ -44,11 +41,9 @@ abide by its terms.
 
 [coc]: code-of-conduct.md
 
-[website]: https://mdxjs.com
+[contribute]: https://mdxjs.com/community/contribute/
 
-[contributing]: https://mdxjs.com/contributing
-
-[support]: https://mdxjs.com/support
+[support]: https://mdxjs.com/community/support/
 
 [pr]: .github/pull-request-template.md
 

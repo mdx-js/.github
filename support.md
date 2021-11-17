@@ -1,8 +1,5 @@
 # Support
 
-Hi!  👋
-We’re excited that you’re using **MDX** and we’d love to help.
+See [our guidelines on the MDX website][support]
 
-[Read the guidelines on the MDX website][support]
-
-[support]: https://mdxjs.com/support
+[support]: https://mdxjs.com/community/support/
