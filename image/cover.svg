@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1012 300">
+  <style>
+    .b {fill: #0d1117}
+    .s {fill: #fff}
+    .l {stroke: #0d1117}
+    @media (prefers-color-scheme: light) {
+      .b {fill: #fff}
+      .s {fill: #0d1117}
+      .l {stroke: #fff}
+    }
+  </style>
+  <path class="b" d="M0 0h1012v300H0z"/>
+  <rect class="s" width="136.5" height="55.5" x="437.75" y="122.25" rx="4.5"/>
+  <g fill="none" stroke-width="6">
+    <path class="l" d="M454.25 166.25v-25L468 155l14-14v25M508.25 162.25V133M494.75 149.5l13.5 13.5 13.5-13.5"/>
+    <path d="M560.25 163.49 531 134.25m.25 29.25 29.25-29.25" stroke="#fcb32c"/>
+  </g>
+</svg>
