@@ -1,9 +1,8 @@
 # `.github`
 
 Community health files for **MDX**.
-This repo hosts the [code of conduct][coc], a guide on how to get [support][],
-how to [contribute][], a [pull request template][pr], and [issue
-templates][issue].
+This repo hosts the [code of conduct][coc] and a [pull request template][pr] and
+[issue templates][issue].
 
 ## unified
 
