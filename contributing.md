@@ -1,4 +1,4 @@
-# Contribe
+# Contribute
 
 See our [guidelines on the MDX website][contributing]
 
