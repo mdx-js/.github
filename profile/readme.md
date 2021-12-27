@@ -20,7 +20,7 @@ together organisations that work with content as structured data.
 *   to help, see [contribute][]
 *   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
-[logo]: #
+[logo]: https://raw.githubusercontent.com/mdx-js/.github/5a63e56/image/cover.svg?sanitize=true
 
 [site]: https://mdxjs.com
 
