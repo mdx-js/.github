@@ -40,10 +40,13 @@ body:
       description: |
         Link to repository or sandbox with runnable example of the issue.
 
-        Some CodeSandbox starters:
-        - [MDX Loader with Next.js](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next)
-        - [MDX Evaluate with Node.js](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node)
-        - [MDX Evaluate with Create React App](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-create-react-app)
+        Some starters:
+
+        | description | codesandbox | stackblitz |
+        | - | - | - |
+        | MDX Loader with Next.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | 
+        | MDX Evaluate with Node.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) |
+        | MDX Evaluate with Create React App | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-create-react-app) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-create-react-app) |
 
         Alternatively, use the next section *Steps to reproduce*.
     validations:
