@@ -104,7 +104,7 @@ body:
       options:
         - npm v8
         - npm v6
-        - yarn v2
+        - yarn v3
         - yarn v1
         - pnpm
         - Other (please specify in steps to reproduce)
