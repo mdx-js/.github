@@ -85,6 +85,8 @@ body:
         **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
       multiple: true
       options:
+        - Node v19
+        - Node v18
         - Node v17
         - Node v16
         - Node v14
@@ -102,6 +104,7 @@ body:
       description: What package manager are you using?
       multiple: true
       options:
+        - npm v9
         - npm v8
         - npm v6
         - yarn v3
