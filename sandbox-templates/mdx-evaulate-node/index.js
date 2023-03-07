@@ -2,8 +2,8 @@
 // You can refresh them in the Dependencies section (left-bottom on CodeSandbox)
 
 import http from "node:http";
-import * as runtime from "react/jsx-runtime.js";
-import ReactDom from "react-dom/server.js";
+import * as runtime from "react/jsx-runtime";
+import ReactDom from "react-dom/server";
 import { evaluate } from "@mdx-js/mdx";
 
 // Note: refresh the pane on the right to see changes.
