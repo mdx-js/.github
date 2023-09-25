@@ -15,7 +15,7 @@
   ],
   "devDependencies": {
     "remark-cli": "^11.0.0",
-    "remark-frontmatter": "^4.0.0",
+    "remark-frontmatter": "^5.0.0",
     "remark-preset-wooorm": "^9.0.0"
   },
   "scripts": {
