@@ -1,9 +1,15 @@
 // ⚠️ Important! Please make sure the dependencies are up to date.
 // You can refresh them in the Dependencies section (left-bottom on CodeSandbox)
 
+/**
+ * @import {Options} from '@mdx-js/loader'
+ * @import {NextConfig} from 'next'
+ */
+
+/** @type {NextConfig} */
 const configuration = {
   // Support MDX files as pages:
-  pageExtensions: ['md', 'mdx', 'tsx', 'ts', 'jsx', 'js'],
+  pageExtensions: ['jsx', 'js', 'mdx', 'md', 'tsx', 'ts'],
   // Support loading `.md`, `.mdx`:
   webpack(config, options) {
     config.module.rules.push({
@@ -13,7 +19,7 @@ const configuration = {
         options.defaultLoaders.babel,
         {
           loader: '@mdx-js/loader',
-          /** @type {import('@mdx-js/loader').Options} */
+          /** @type {Options} */
           options: {}
         }
       ]

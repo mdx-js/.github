@@ -1,17 +1,17 @@
 {
-  "name": "mdx-loader-next",
-  "version": "1.0.0",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
-    "@mdx-js/loader": "^2.0.0",
-    "next": "^13.0.0",
+    "@mdx-js/loader": "^3.0.0",
+    "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
-  }
+  },
+  "license": "MIT",
+  "name": "mdx-loader-next",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "version": "1.0.0"
 }
