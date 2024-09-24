@@ -17,7 +17,8 @@
     "prettier": "^3.0.0",
     "remark-cli": "^12.0.0",
     "remark-frontmatter": "^5.0.0",
-    "remark-preset-wooorm": "^10.0.0"
+    "remark-preset-wooorm": "^10.0.0",
+    "xo": "^0.59.0"
   },
   "scripts": {
     "format": "remark --frail --quiet --output -- . && prettier --log-level warn --write -- .",
@@ -40,5 +41,18 @@
         false
       ]
     ]
+  },
+  "xo": {
+    "overrides": [
+      {
+        "files": [
+          "sandbox-templates/mdx-evaulate-node/index.js"
+        ],
+        "rules": {
+          "new-cap": "off"
+        }
+      }
+    ],
+    "prettier": true
   }
 }
