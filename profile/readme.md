@@ -2,9 +2,9 @@
 
 [**MDX**][site] is markdown for the component era.
 
-*   for docs and guides, see [`mdxjs.com`][site]
-*   for code, see [`mdx-js/mdx`][monorepo] on GitHub
-*   for updates, see [`@mdx_js`][twitter] on Twitter
+* for docs and guides, see [`mdxjs.com`][site]
+* for code, see [`mdx-js/mdx`][monorepo] on GitHub
+* for updates, see [`@mdx_js`][twitter] on Twitter
 
 #### unified
 
@@ -16,9 +16,9 @@ together organisations that work with content as structured data.
 > 👉 **Note**: by interacting with this organization or community you agree to
 > abide by our [code of conduct][coc].
 
-*   for questions, see [support][]
-*   to help, see [contribute][]
-*   to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions, see [support][]
+* to help, see [contribute][]
+* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
 
 [logo]: https://raw.githubusercontent.com/mdx-js/.github/5a63e56/image/cover.svg?sanitize=true
 
