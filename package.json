@@ -14,13 +14,22 @@
     "Christian Murphy (https://github.com/ChristianMurphy)"
   ],
   "devDependencies": {
+    "prettier": "^3.0.0",
     "remark-cli": "^12.0.0",
     "remark-frontmatter": "^5.0.0",
     "remark-preset-wooorm": "^10.0.0"
   },
   "scripts": {
-    "format": "remark --frail --quiet --output -- .",
+    "format": "remark --frail --quiet --output -- . && prettier --log-level warn --write -- .",
     "test": "npm run format"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
   },
   "remarkConfig": {
     "plugins": [

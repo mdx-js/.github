@@ -3,7 +3,7 @@
 
 const configuration = {
   // Support MDX files as pages:
-  pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
+  pageExtensions: ['md', 'mdx', 'tsx', 'ts', 'jsx', 'js'],
   // Support loading `.md`, `.mdx`:
   webpack(config, options) {
     config.module.rules.push({
@@ -12,17 +12,17 @@ const configuration = {
         // The default `babel-loader` used by Next:
         options.defaultLoaders.babel,
         {
-          loader: "@mdx-js/loader",
+          loader: '@mdx-js/loader',
           /** @type {import('@mdx-js/loader').Options} */
           options: {
             /* jsxImportSource: …, otherOptions… */
-          },
-        },
-      ],
-    });
+          }
+        }
+      ]
+    })
 
-    return config;
-  },
-};
+    return config
+  }
+}
 
-export default configuration;
+export default configuration
