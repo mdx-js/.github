@@ -89,7 +89,7 @@ body:
       required: false
   - attributes:
       description: |
-        What operating system are you using (e.g., `macOS Monterey 12.4`)?
+        What operating system are you using (such as `macOS Monterey 12.4`)?
         Please test using the latest version.
       label: Affected OS and version
     id: operating-system
