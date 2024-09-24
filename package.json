@@ -13,6 +13,9 @@
     "John Otander <johnotander@gmail.com> (http://johnotander.com)",
     "Christian Murphy (https://github.com/ChristianMurphy)"
   ],
+  "workspaces": [
+    "sandbox-templates/*/"
+  ],
   "devDependencies": {
     "prettier": "^3.0.0",
     "remark-cli": "^12.0.0",
