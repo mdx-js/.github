@@ -1,42 +1,35 @@
-name: 🐛 Bug report
-description: Describe a problem
-
 body:
-  - type: markdown
-    attributes:
+  - attributes:
       value: |
         Some general tips:
 
-        - Is this really a problem?
-        - Is this a problem here?
-        - Can this be solved in a different way?
-
-  - type: checkboxes
-    id: initial-checklist
-    attributes:
+        * Is this really a problem?
+        * Is this a problem here?
+        * Can this be solved in a different way?
+    type: markdown
+  - attributes:
       label: Initial checklist
       options:
         - label: I read the [support docs](https://mdxjs.com/community/support/)
           required: true
         - label: I read the [contributing guide](https://mdxjs.com/community/contribute/)
           required: true
-        - label: I agree to follow the [code of conduct](https://github.com/mdx-js/.github/blob/HEAD/code-of-conduct.md)
+        - label: I agree to follow the [code of conduct](https://github.com/mdx-js/.github/blob/main/code-of-conduct.md)
           required: true
         - label: I searched [issues](https://github.com/search?q=user%3Amdx-js&type=Issues) and couldn’t find anything (or linked relevant results below)
           required: true
-
-  - type: input
-    id: affected-versions
-    attributes:
+    id: initial-checklist
+    type: checkboxes
+  - attributes:
+      description: |
+        Please test using the latest version of the relevant packages to make
+        sure your issue has not already been fixed.
       label: Affected packages and versions
-      description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed.
+    id: affected-versions
+    type: input
     validations:
       required: true
-
-  - type: input
-    id: runnable-example
-    attributes:
-      label: Link to runnable example
+  - attributes:
       description: |
         Link to repository or sandbox with runnable example of the issue.
 
@@ -44,112 +37,89 @@ body:
 
         | description | codesandbox | stackblitz |
         | - | - | - |
-        | MDX Loader with Next.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | 
+        | MDX Loader with Next.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) |
         | MDX Evaluate with Node.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) |
         | MDX Evaluate with Create React App | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-create-react-app) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-create-react-app) |
 
         Alternatively, use the next section *Steps to reproduce*.
+      label: Link to runnable example
+    id: runnable-example
+    type: input
     validations:
       required: false
-
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to reproduce
-      description: How did this happen? Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: What should happen?
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual-behavior
-    attributes:
-      label: Actual behavior
-      description: What happens instead?
-    validations:
-      required: true
-
-  - type: dropdown
-    id: javascript-runtime
-    attributes:
-      label: Runtime
+  - attributes:
       description: |
-        What JavaScript runtime are you using to build or run the code?
-        **Note**: for ECMASCript modules (ESM) in Node, at minimum Node.js 12.20, 14.14, or 16.0 is required.
-      multiple: true
-      options:
-        - Node v21
-        - Node v20
-        - Node v19
-        - Node v18
-        - Node v17
-        - Node v16
-        - Node v14
-        - Node v12
-        - Deno
-        - Electron
-        - Other (please specify in steps to reproduce)
+        How did this happen?
+        Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
+      label: Steps to reproduce
+    id: steps-to-reproduce
+    type: textarea
     validations:
-      required: false
-
-  - type: dropdown
+      required: true
+  - attributes:
+      description: What should happen?
+      label: Expected behavior
+    id: expected-behavior
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: What happens instead?
+      label: Actual behavior
+    id: actual-behavior
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      label: Affected runtime and version
+      description: |
+        What runtime are you using (such as `node@18.2`, `deno@1.12.2`)?
+        Please test using the latest version.
+    id: runtime
+    type: input
+    validations:
+      required: true
+  - attributes:
+      description: |
+        What package manager are you using (such as `npm@8.9.0`)?
+        Please test using the latest version.
+      label: Affected package manager and version
     id: package-manager
-    attributes:
-      label: Package manager
-      description: What package manager are you using?
-      multiple: true
-      options:
-        - npm v10
-        - npm v9
-        - npm v8
-        - npm v6
-        - yarn v4
-        - yarn v3
-        - yarn v1
-        - pnpm
-        - Other (please specify in steps to reproduce)
+    type: input
     validations:
       required: false
-
-  - type: dropdown
+  - attributes:
+      description: |
+        What operating system are you using (e.g., `macOS Monterey 12.4`)?
+        Please test using the latest version.
+      label: Affected OS and version
     id: operating-system
-    attributes:
-      label: OS
-      description: What operating system are you using?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - macOS
-        - Other (please specify in steps to reproduce)
+    type: input
     validations:
       required: false
-
-  - type: dropdown
-    id: build-tools
-    attributes:
+  - attributes:
+      description: |
+        What, if any, tools are used to build or bundle the project?
+        Please test using the latest version.
       label: Build and bundle tools
-      description: What, if any, tools are used to build or bundle the project?
       multiple: true
       options:
-        - webpack
-        - Rollup
-        - esbuild
-        - Parcel
-        - Create React App
+        - Astro
+        - CRA (Create React App)
+        - Docusaurus
         - Gatsby
         - Next.js
+        - Parcel
         - Remix
-        - Docusaurus
-        - Snowpack
+        - Rollup
         - Vite
-        - Other (please specify in steps to reproduce)
+        - esbuild
+        - swc
+        - webpack
+        - other (please specify in steps to reproduce)
+    id: build-tools
+    type: dropdown
     validations:
       required: false
+description: Describe a bug with a project
+name: 🐛 Bug report
