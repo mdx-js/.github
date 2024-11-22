@@ -1,21 +1,12 @@
 {
-  "name": "github",
-  "private": true,
-  "version": "0.0.0",
-  "description": "Community health files",
-  "license": "CC-BY-4.0",
-  "keywords": [],
-  "repository": "mdx-js/.github",
-  "bugs": "https://github.com/mdx-js/.github",
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "bugs": "https://github.com/mdx-js/.github",
   "contributors": [
-    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+    "Christian Murphy (https://github.com/ChristianMurphy)",
     "John Otander <johnotander@gmail.com> (http://johnotander.com)",
-    "Christian Murphy (https://github.com/ChristianMurphy)"
+    "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "workspaces": [
-    "sandbox-templates/*/"
-  ],
+  "description": "Community health files",
   "devDependencies": {
     "prettier": "^3.0.0",
     "remark-cli": "^12.0.0",
@@ -23,10 +14,9 @@
     "remark-preset-wooorm": "^10.0.0",
     "xo": "^0.59.0"
   },
-  "scripts": {
-    "format": "remark --frail --quiet --output -- . && prettier --log-level warn --write -- .",
-    "test": "npm run format"
-  },
+  "keywords": [],
+  "license": "CC-BY-4.0",
+  "name": "github",
   "prettier": {
     "bracketSpacing": false,
     "semi": false,
@@ -35,6 +25,7 @@
     "trailingComma": "none",
     "useTabs": false
   },
+  "private": true,
   "remarkConfig": {
     "plugins": [
       "remark-frontmatter",
@@ -45,6 +36,12 @@
       ]
     ]
   },
+  "repository": "mdx-js/.github",
+  "scripts": {
+    "format": "remark --frail --quiet --output -- . && prettier --log-level warn --write -- .",
+    "test": "npm run format"
+  },
+  "version": "0.0.0",
   "xo": {
     "overrides": [
       {
@@ -57,5 +54,8 @@
       }
     ],
     "prettier": true
-  }
+  },
+  "workspaces": [
+    "sandbox-templates/*/"
+  ]
 }
