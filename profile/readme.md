@@ -1,41 +1,54 @@
-# [![MDX][logo]][site]
+# [![MDX][githubusercontent-logo]][github-mdx]
 
-[**MDX**][site] is markdown for the component era.
+[**MDX**][mdxjs] is markdown for the component era.
 
-* for docs and guides, see [`mdxjs.com`][site]
-* for code, see [`mdx-js/mdx`][monorepo] on GitHub
-* for updates, see [`@mdx_js`][twitter] on Twitter
+* for docs and guides,
+  see [`mdxjs.com`][mdxjs]
+* for code,
+  see [`mdx-js/mdx`][github-mdx] on GitHub
 
 #### unified
 
-MDX is part of the unified collective ([`unifiedjs.com`][unified]), which brings
-together organisations that work with content as structured data.
+**MDX** is part of the unified collective,
+which brings together organisations that work with content as structured data.
+
+* for more about us,
+  see [`unifiedjs.com`][unifiedjs]
+* for how the collective is governed,
+  see [`unifiedjs/collective`][github-unified-collective]
 
 #### Get involved
 
-> 👉 **Note**: by interacting with this organization or community you agree to
-> abide by our [code of conduct][coc].
+This community has a [code of conduct][github-health-code-of-conduct].
+You must follow it when interacting with the community.
 
-* for questions, see [support][]
-* to help, see [contribute][]
-* to sponsor, see [OpenCollective][oc] or [GitHub sponsors][ghs]
+* for questions,
+  see [`mdxjs.com/community/support/`][mdxjs-community-support]
+* to help,
+  see [`mdxjs.com/community/contribute/`][mdxjs-community-contribute]
+* to sponsor,
+  see [GitHub sponsors][github-sponsors],
+  [`thanks.dev`][thanks],
+  or [OpenCollective][]
 
-[logo]: https://raw.githubusercontent.com/mdx-js/.github/5a63e56/image/cover.svg?sanitize=true
+[github-health-code-of-conduct]: https://github.com/mdx-js/.github/blob/main/code-of-conduct.md
 
-[site]: https://mdxjs.com
+[github-mdx]: https://github.com/mdx-js/mdx
 
-[unified]: https://unifiedjs.com
+[github-sponsors]: https://github.com/sponsors/unifiedjs
 
-[twitter]: https://twitter.com/mdx_js
+[github-unified-collective]: https://github.com/unifiedjs/collective
 
-[monorepo]: https://github.com/mdx-js/mdx
+[githubusercontent-logo]: https://raw.githubusercontent.com/mdx-js/.github/5a63e56/image/cover.svg?sanitize=true
 
-[coc]: https://github.com/mdx-js/.github/blob/main/code-of-conduct.md
+[mdxjs-community-contribute]: https://mdxjs.com/community/contribute/
 
-[support]: https://mdxjs.com/community/support/
+[mdxjs-community-support]: https://mdxjs.com/community/support/
 
-[contribute]: https://mdxjs.com/community/contribute/
+[mdxjs]: https://mdxjs.com
 
-[oc]: https://opencollective.com/unified
+[opencollective]: https://opencollective.com/unified
 
-[ghs]: https://github.com/sponsors/unifiedjs
+[thanks]: https://thanks.dev
+
+[unifiedjs]: https://unifiedjs.com
