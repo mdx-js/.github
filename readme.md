@@ -1,55 +1,55 @@
 # `.github`
 
 Community health files for **MDX**.
-This repo hosts the [code of conduct][coc] and a [pull request template][pr] and
-[issue templates][issue].
 
 ## unified
 
-**MDX** is a [unified collective][unified] project.
-See [`unifiedjs/collective`][collective] for how it’s governed.
+This organization is part of **[unified][github-unified]**.
+See [`unifiedjs/collective`][github-collective] on how it’s governed.
 
 ## Awesome MDX
 
-See [Awesome MDX][awesome] for a curated list of awesome MDX resources.
-
-## Support
-
-See [`mdxjs.com/community/support/`][support] to find out how to help us help
-you.
-
-## Contributing
-
-See [`mdxjs.com/community/contribute/`][contribute] for how to contribute.
+See [`mdx-js/awesome-mdx`][github-awesome-mdx] for a
+curated list of awesome resources.
 
 ## Code of conduct
 
-This project has a [code of conduct][coc].
-By interacting with this repository, organization, or community you agree to
-abide by its terms.
+This community has a [code of conduct][file-code-of-conduct].
+You must follow it when interacting with the community.
+
+## Support
+
+See [`mdxjs.com/community/support/`][mdxjs-support] on how to get help.
+
+## Contributing
+
+See [`mdxjs.com/community/contribute/`][mdxjs-contribute] on how to contribute.
+
+## Security
+
+See [`security.md`][file-security] if you found a security issue.
 
 ## License
 
-[CC-BY-4.0][license] © [Titus Wormer][author].
+This document has the following license:
+[CC-BY-4.0][creativecommons-by] © [Titus Wormer][wooorm].
 
-<!-- Definitions -->
+Other projects may be licensed differently.
 
-[license]: https://creativecommons.org/licenses/by/4.0/
+[creativecommons-by]: https://creativecommons.org/licenses/by/4.0/
 
-[author]: https://wooorm.com
+[file-code-of-conduct]: code-of-conduct.md
 
-[coc]: code-of-conduct.md
+[file-security]: security.md
 
-[contribute]: https://mdxjs.com/community/contribute/
+[github-awesome-mdx]: https://github.com/mdx-js/awesome-mdx
 
-[support]: https://mdxjs.com/community/support/
+[github-collective]: https://github.com/unifiedjs/collective
 
-[pr]: .github/pull-request-template.md
+[github-unified]: https://github.com/unifiedjs
 
-[issue]: .github/ISSUE_TEMPLATE
+[mdxjs-contribute]: https://mdxjs.com/community/contribute/
 
-[awesome]: https://github.com/transitive-bullshit/awesome-mdx
+[mdxjs-support]: https://mdxjs.com/community/support/
 
-[unified]: https://github.com/unifiedjs
-
-[collective]: https://github.com/unifiedjs/collective
+[wooorm]: https://wooorm.com
