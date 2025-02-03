@@ -46,7 +46,7 @@
     "overrides": [
       {
         "files": [
-          "sandbox-templates/mdx-evaulate-node/index.js"
+          "sandbox-templates/mdx-evaluate-node/index.js"
         ],
         "rules": {
           "new-cap": "off"

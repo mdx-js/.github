@@ -45,7 +45,7 @@ body:
         | description | codesandbox | stackblitz |
         | - | - | - |
         | MDX Loader with Next.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-loader-next) |
-        | MDX Evaluate with Node.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaulate-node) |
+        | MDX Evaluate with Node.js | [codesandbox](https://codesandbox.io/s/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-node) | [stackblitz](https://stackblitz.com/github/mdx-js/.github/tree/main/sandbox-templates/mdx-evaluate-node) |
       label: Steps to reproduce
     id: steps-to-reproduce
     type: textarea
