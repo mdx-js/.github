@@ -68,6 +68,6 @@ with or unaddressed by this policy.
   vishing,
   smishing) is prohibited
 
-[mdx]: https://github.com/mdx-js
-
 [core]: https://github.com/unifiedjs/collective#core-team
+
+[mdx]: https://github.com/mdx-js

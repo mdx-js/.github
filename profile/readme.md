@@ -41,11 +41,11 @@ You must follow it when interacting with the community.
 
 [githubusercontent-logo]: https://raw.githubusercontent.com/mdx-js/.github/5a63e56/image/cover.svg?sanitize=true
 
+[mdxjs]: https://mdxjs.com
+
 [mdxjs-community-contribute]: https://mdxjs.com/community/contribute/
 
 [mdxjs-community-support]: https://mdxjs.com/community/support/
-
-[mdxjs]: https://mdxjs.com
 
 [opencollective]: https://opencollective.com/unified
 
